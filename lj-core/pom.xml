@@ -6,9 +6,19 @@
 		<artifactId>lj-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
-	
+
 	<artifactId>lj-core</artifactId>
 	<packaging>jar</packaging>
 	<name>lj core</name>
+	<dependencies>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
 
+	</dependencies>
 </project>
